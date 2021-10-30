@@ -24,12 +24,12 @@ function displayResult(argPlayerMove, argComputerMove) {
   console.log('wywołano funkcję displayResults z argumentami: ' + argPlayerMove + ', ' + argComputerMove);
   if (argPlayerMove == 'papier' && argComputerMove == 'kamień') {
     printMessage('Wygrywasz!');
-  } else if (argPlayerMove == 'nożyce' && argComputerMove == 'papier') {
-    printMessage('Wygrywasz!');
   } else if (argPlayerMove == 'kamień' && argComputerMove == 'nożyce') {
     printMessage('Wygrywasz!');
+  } else if (argPlayerMove == 'nożyce' && argComputerMove == 'papier') {
+    printMessage('Wygrywasz!');
   } else if (argPlayerMove == argComputerMove) {
-    printMessage('Mamy remis!');
+    printMessage('Remisik...');
   } else {
     printMessage('Przegrywasz :(');
   }
