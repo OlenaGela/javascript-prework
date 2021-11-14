@@ -1,5 +1,3 @@
-var buttonPaper, buttonRock, buttonScissors;
-
 {
 let argMoveId
 
@@ -12,8 +10,6 @@ function buttonClicked(argButtonName) {
   clearMessages();
   console.log(argButtonName + ' został kliknięty');
 
-
-  var argPlayerMove, argComputerMove, playerInput;
   let randomNumber
   let playerMove
 
@@ -43,6 +39,10 @@ function buttonClicked(argButtonName) {
   }
 }
 
+{
+let argPlayerMove
+let argComputerMove
+var playerInput;
   //warianty wyniku
   function displayResult(argPlayerMove, argComputerMove) {
     console.log('wywołano funkcję displayResults z argumentami: ' + argPlayerMove + ', ' + argComputerMove);
@@ -61,6 +61,9 @@ function buttonClicked(argButtonName) {
   }
 }
 
+}
+
+var buttonPaper, buttonRock, buttonScissors;
 
 buttonRock = document.getElementById('button-rock');
 buttonRock.addEventListener('click', function(){ buttonClicked('kamień'); });
