@@ -1,0 +1,12 @@
+/* Global */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0 60px;
+  margin: auto;
+  background: #2980b9;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxXQUFBO0FBRUE7RUFDQyxzQkFBQTtBQ0FEOztBREdBO0VBQ0ksaUJBQUE7RUFDQSxlQUFBO0VBQ0EsWUFBQTtFQUNBLG1CQUFBO0FDQUoiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
