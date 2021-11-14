@@ -13,7 +13,9 @@ function buttonClicked(argButtonName) {
   console.log(argButtonName + ' został kliknięty');
 
 
-  var argPlayerMove, argComputerMove, playerMove, randomNumber, playerInput;
+  var argPlayerMove, argComputerMove, playerMove, playerInput;
+  let randomNumber
+
 
   //ruch gracza
   playerMove = argButtonName;
