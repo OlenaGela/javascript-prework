@@ -1,13 +1,18 @@
 var buttonPaper, buttonRock, buttonScissors;
+
+{
+let argMoveId
+
 {
 let argButtonName
+
 //wciskanie guzików
 function buttonClicked(argButtonName) {
   clearMessages();
   console.log(argButtonName + ' został kliknięty');
 
 
-  var argMoveId, argPlayerMove, argComputerMove, computerMove, playerMove, randomNumber, playerInput;
+  var argPlayerMove, argComputerMove, computerMove, playerMove, randomNumber, playerInput;
 
   //ruch gracza
   playerMove = argButtonName;
@@ -32,6 +37,7 @@ function buttonClicked(argButtonName) {
       return 'kamień';
     }
   }
+}
 
   //warianty wyniku
   function displayResult(argPlayerMove, argComputerMove) {
@@ -50,6 +56,7 @@ function buttonClicked(argButtonName) {
     printMessage('Zagrałem ' + argComputerMove + ', a Ty ' + argPlayerMove);
   }
 }
+
 
 buttonRock = document.getElementById('button-rock');
 buttonRock.addEventListener('click', function(){ buttonClicked('kamień'); });

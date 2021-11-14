@@ -1,5 +1,6 @@
-var argButtonName, buttonPaper, buttonRock, buttonScissors;
-
+var buttonPaper, buttonRock, buttonScissors;
+{
+let argButtonName
 //wciskanie guzików
 function buttonClicked(argButtonName) {
   clearMessages();
@@ -16,7 +17,7 @@ function buttonClicked(argButtonName) {
   computerMove = getMoveName(randomNumber);
   console.log('ruch komputera to: ' + computerMove);
   displayResult(playerMove, computerMove);
-
+}
   //ruch komputera - przypisanie ruchu do wylosowanej liczby
   function getMoveName(argMoveId) {
     console.log('wywołano funkcję getMoveName z argumentem: ' + argMoveId);
