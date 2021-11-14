@@ -42,7 +42,7 @@ function buttonClicked(argButtonName) {
 {
 let argPlayerMove
 let argComputerMove
-var playerInput;
+
   //warianty wyniku
   function displayResult(argPlayerMove, argComputerMove) {
     console.log('wywołano funkcję displayResults z argumentami: ' + argPlayerMove + ', ' + argComputerMove);
