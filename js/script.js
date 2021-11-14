@@ -5,6 +5,7 @@ let argMoveId
 
 {
 let argButtonName
+let computerMove
 
 //wciskanie guzików
 function buttonClicked(argButtonName) {
@@ -12,7 +13,7 @@ function buttonClicked(argButtonName) {
   console.log(argButtonName + ' został kliknięty');
 
 
-  var argPlayerMove, argComputerMove, computerMove, playerMove, randomNumber, playerInput;
+  var argPlayerMove, argComputerMove, playerMove, randomNumber, playerInput;
 
   //ruch gracza
   playerMove = argButtonName;
